@@ -12,11 +12,12 @@
     <groupId>com.example</groupId>
     <artifactId>provaD</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <name>provaD</name>
     <description>provaD</description>
     <properties>
         <java.version>17</java.version>
-        <packaging>jar</packaging>
     </properties>
 
     <distributionManagement>
