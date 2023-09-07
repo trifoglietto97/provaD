@@ -52,6 +52,9 @@
                         <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
+                            <configuration>
+                                <skip>true</skip>
+                            </configuration>
                         </exclude>
                     </excludes>
                 </configuration>
