@@ -16,7 +16,16 @@
     <description>provaD</description>
     <properties>
         <java.version>17</java.version>
+        <packaging>jar</packaging>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub trifoglietto97 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/trifoglietto97/provaD</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
 
